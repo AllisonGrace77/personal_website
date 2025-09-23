@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="referrer" content="unsafe-url">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/dev109/final/css/style.css">
+    <title>Contact</title>
+  </head> 
+  <!-- end of document header -->
+
+  <body>
+  <h1>Contact</h1>
+  <div id="menu"><p>
+    <a href="/dev109/final/index.html" target="_self">Home</a> | 
+    <a href="/dev109/final/about.html" target="_self">About</a> | 
+    <a href="/dev109/final/courses.html" target="_self">Courses</a> | 
+    <a href="/dev109/final/artifacts.html" target="_self">Artifacts</a> | 
+    <a href="/dev109/final/modules.html" target="_self">Modules</a> | 
+    <a href="/dev109/final/contact.html" target="_self">Contact</a> | 
+    <a href="/dev109/final/creative.html" target="_self">Ally's Art Corner</a> | 
+    <a href="/dev109/final/validated.html" target="_self">Validated</a>
+  </p></div>
+  <br>
+  
+  <form id="myform" action="/dev109/final/thankyou.html" onsubmit="validateForm(this);">
+    <p>
+        <label for='Name'>Name:</label>
+        <input type="text" id="Name" name="Name" />
+    </p>
+        <div class="errorMessages" id="nameError"></div>
+    <p>
+        <label for='Email'>Email:</label>
+        <input type="text" id="Email" name="Email" />
+    </p>
+        <div class="errorMessages" id="emailError"></div>
+    
+    <p>
+        <label for='Comments'>Additional Comments:</label>
+        <input type="text" id="Comments" name="Comments" />
+    </p>
+        <div class="errorMessages" id="commentsError"></div>
+    <br>
+    <input type="submit" name="Submit" value="Submit" />
+  </form>
+
+
+    <script src="/dev109/final/javascript/script.js" type="text/javascript"></script>
+  </body>
+</html>

@@ -1,0 +1,150 @@
+body {
+ background-image: url("/dev109/midterm/images/retroLines2.jpg");
+ background-color:#F0D5E3;
+ background-size: 100%, auto;
+ font-family: "Ubuntu", ubuntu-regular, sans-serif; 
+ font-weight: normal; 
+ font-style: normal;  
+ line-height: 20pt;
+ margin-left: 15pt;
+ margin-right: 15pt;
+ overflow-x: hidden;
+ z-index: 1;
+}
+.column {
+  float: left;
+  width: 50%;
+  height: 100%;
+  overflow-y:visible;
+  overflow-x: hidden;
+  position: relative;
+}
+#totoro{
+ float:right;
+}
+#giphyLink{
+ clear: right;
+}
+#homeText{
+ width:50%;
+ float:left;
+}
+#homeGif{
+ float:right;
+ margin-right:10pt;
+}
+.artifactPics{
+ width:150pt;
+ height: auto;
+ margin-bottom: 0pt;
+}
+#ghibli{
+ width: 40%;
+ height:auto;
+ float:right;
+ margin-left:5pt;
+}
+.validator {
+max-width: 80%;
+height: auto;
+}
+#menu{
+  position: relative;
+  left:-15pt;
+  background-color:#6F4E37;
+  font-family: ubuntu-regular, "Ubuntu", sans-serif; 
+  width: 105%;
+  color: #ffffff;
+ font-size: 20pt;
+ line-height:1.5;
+  padding: 2pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+ z-index: 1;
+}
+div a {
+  font-stretch: expanded;
+  font-size:20pt;
+  text-decoration: none;
+  color:#ffffff;
+  margin-left: 1%;
+  margin-right:1%;
+}
+div a:link {
+  height: 44pt;
+  width: auto;
+  color:#ffffff;
+}
+div a:visited {
+  height: 44pt;
+  width: auto;
+  color:#ffffff;
+}
+div a:hover {
+  color:#ffffff;
+  text-decoration: underline;
+}
+.blueLink{
+  color: #0000ee;
+}
+h1{
+  color:#1e140a;
+ font-size:2.5em;
+ /*background-color: #FAECD2;*/
+}
+.errorMessages{
+    font-weight: bold;
+    color:red;
+    font-size:8pt;
+}
+
+
+
+
+.ubuntu-light {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-medium {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubuntu-light-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ubuntu-regular-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ubuntu-medium-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ubuntu-bold-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
