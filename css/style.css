@@ -162,12 +162,7 @@ header .container {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 0;
-}
-
-/* Logo */
-.logo {
-  font-size: 1.25rem;
-  margin: 0;
+  background_color:ffffff;
 }
 
 /* Remove bullet points */
