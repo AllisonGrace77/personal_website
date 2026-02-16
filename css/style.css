@@ -63,6 +63,7 @@ div a:hover {
 h1{
   color:white;
  font-size:2.5em;
+  padding:2rem;
  /*background-color: #FAECD2;*/
 }
 .errorMessages{
@@ -125,7 +126,7 @@ h1{
 
 /* Reset some annoying defaults */
 body {
-  margin: 0.5rem;
+  margin: 0;
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -150,6 +151,7 @@ header .container {
   justify-content: center; /* center links */
   gap: 2rem;
   margin: 0;
+  padding: 1rem;
 }
 
 
