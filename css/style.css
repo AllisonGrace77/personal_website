@@ -148,3 +148,33 @@ h1{
   font-weight: 700;
   font-style: italic;
 }
+
+
+
+/* Navigation bar */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem; 
+}
+
+/* Navigation bar background */
+header {
+  background-color: #222;
+  padding: 1rem 0;
+}
+
+/* Navigation bar links */
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Hover effect */
+nav a:hover {
+  text-decoration: underline;
+}
