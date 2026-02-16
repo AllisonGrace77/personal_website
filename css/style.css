@@ -24,10 +24,6 @@ body {
 #giphyLink{
  clear: right;
 }
-#homeText{
- width:50%;
- float:left;
-}
 #homeGif{
  float:right;
  margin-right:10pt;
