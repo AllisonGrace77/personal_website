@@ -35,20 +35,6 @@
 max-width: 80%;
 height: auto;
 }
-#menu{
-  position: relative;
-  left:-15pt;
-  background-color:#6F4E37;
-  font-family: ubuntu-regular, "Ubuntu", sans-serif; 
-  width: 105%;
-  color: #ffffff;
- font-size: 20pt;
- line-height:1.5;
-  padding: 2pt;
-  margin-left: 0pt;
-  margin-right: 0pt;
- z-index: 1;
-}
 div a {
   font-stretch: expanded;
   font-size:20pt;
@@ -75,7 +61,7 @@ div a:hover {
   color: #0000ee;
 }
 h1{
-  color:#1e140a;
+  color:white;
  font-size:2.5em;
  /*background-color: #FAECD2;*/
 }
@@ -145,8 +131,8 @@ body {
 
 /* Header styling */
 header {
-  background-color: #333; /* dark gray */
-  padding: 1rem 0;
+  background-color: #6F4E37; /* dark gray */
+  padding: 1rem;
 }
 
 /* Align logo + nav horizontally */
@@ -154,7 +140,7 @@ header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 0;
+  padding: 1rem;
 }
 
 /* Remove bullet points */
@@ -164,8 +150,9 @@ header .container {
   justify-content: center; /* center links */
   gap: 2rem;
   margin: 0;
-  padding: 0;
 }
+
+
 
 /* Links */
 .nav-list a {
