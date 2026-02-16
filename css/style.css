@@ -112,6 +112,10 @@ h1{
     color:red;
     font-size:8pt;
 }
+header {
+ padding: 0;
+ margin: 0;
+}
 
 
 
