@@ -6,8 +6,6 @@ body {
  font-weight: normal; 
  font-style: normal;  
  line-height: 20pt;
- margin-left: 15pt;
- margin-right: 15pt;
  overflow-x: hidden;
  z-index: 1;
 }
@@ -51,7 +49,7 @@ height: auto;
 }
 
 .container {
- background-color:#6F4E37;
+ margin: 1rem;
 }
 /* Remove bullet points */
 .menu {
@@ -70,7 +68,10 @@ height: auto;
   transition: opacity 0.2s ease;
   padding: 1rem;
 }
-
+nav {
+  background-color:#6F4E37;
+  padding: 1rem;
+}
 /* Hover effect */
 .menu a:hover {
   text-decoration: underline;
