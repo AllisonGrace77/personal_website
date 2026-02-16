@@ -45,6 +45,13 @@ nav {
   background-color:#6F4E37;
   padding: 1rem;
   overflow-x: auto;
+ -ms-overflow-style: none;  /* IE */
+  scrollbar-width: none;     /* Firefox */
+}
+ nav::-webkit-scrollbar {
+  display: none;
+}
+
 }
 
 nav ul {
