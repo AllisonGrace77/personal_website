@@ -125,7 +125,7 @@ h1{
 
 /* Reset some annoying defaults */
 body {
-  margin: 0;
+  margin: 0.5rem;
   font-family: 'Ubuntu', sans-serif;
 }
 
