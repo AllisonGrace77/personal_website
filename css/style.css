@@ -13,10 +13,6 @@
  width:50%;
  float:left;
 }
-#homeGif{
- float:right;
- margin-right:10pt;
-}
 .artifactPics{
  width:150pt;
  height: auto;
@@ -59,7 +55,7 @@ div a:hover {
 }
 h1{
   color:white;
-  font-size:2.5em;
+  font-size:2.5rem;
   padding:2rem;
 }
 .errorMessages{
@@ -166,7 +162,11 @@ header .container {
   text-decoration: underline;
 }
 
+.content {
+  padding: 1rem;
+}
+
 .profile-pic {
-  width: 250px;  
+  width: 250pt;  
   height: auto;
 }
