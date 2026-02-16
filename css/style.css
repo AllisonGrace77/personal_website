@@ -48,19 +48,28 @@ body {
 max-width: 80%;
 height: auto;
 }
-#menu{
-  position: relative;
-  left:-15pt;
-  background-color:#6F4E37;
-  font-family: ubuntu-regular, "Ubuntu", sans-serif; 
-  width: 105%;
-  color: #ffffff;
- font-size: 20pt;
- line-height:1.5;
-  padding: 2pt;
-  margin-left: 0pt;
-  margin-right: 0pt;
- z-index: 1;
+
+/* Remove bullet points */
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center; /* center links */
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+/* Links */
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.2s ease;
+  padding: 1rem;
+}
+
+/* Hover effect */
+.menu a:hover {
+  text-decoration: underline;
 }
 div a {
   font-stretch: expanded;
