@@ -60,7 +60,7 @@ nav ul {
   gap: 2rem;
   padding: 0;
   margin: 0;
-  flex-wrap: nowrap;  /* prevents wrapping */
+  flex-wrap: wrap;
 }
 
 /* Hover effect */
